@@ -13,6 +13,5 @@ ENV FLASK_RUN_HOST=0.0.0.0
 EXPOSE 5000
 
 CMD ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=5000"]
-git add Dockerfile
-git commit -m "Build: trigger pull request comparison"
-git push origin feature/sol
+
+
